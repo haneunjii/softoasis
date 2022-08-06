@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".data_upload_page"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="데이터등록 하기"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="안녕하세요 학생개발자 라페 입니다"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="방문해 주신분 모두 감사합니다"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="방명록 한번씩 남겨 주시면 감사하겠습니다"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="입력 해주신 정보는 소중히 간직하며 개인 서버에 저장이 됩니다(Unserverless)"/>
+
+
+        <EditText
+            android:id="@+id/data_upload_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Category"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            />
+        <EditText
+            android:id="@+id/data_upload_phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="phone number"
+            android:inputType="phone"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/data_upload_Ceo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="CEO"
+            android:inputType="text"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/data_upload_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="company"
+            android:inputType="text"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/data_upload_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="position of position"
+            android:inputType="text"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/data_upload_duty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="duty or work"
+            android:inputType="text"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/data_upload_complate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="입력"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
